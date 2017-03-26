@@ -1,0 +1,13 @@
+<div class="search">
+  <div class="search__form">
+    <form-group>
+      <form-input-text label="Area" [(value)]="area"></form-input-text>
+      <form-input-text label="Region" [(value)]="region"></form-input-password>
+    </form-group>
+  </div>
+  <div class="search__actions">
+    <div class="search__action">
+      <action (action)="doSearch()" title="Search"></action>
+    </div>
+  </div>
+</div>
