@@ -1,5 +1,6 @@
 <div class="search">
   <div class="search__form">
+    <paper-input label="Place" [value]="place" (value-changed)="onPlaceChange($event)" ></paper-input>
     <form-group>
       <form-input-text label="Area" [(value)]="area"></form-input-text>
       <form-input-text label="Region" [(value)]="region"></form-input-text>

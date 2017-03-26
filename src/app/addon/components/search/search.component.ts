@@ -19,6 +19,7 @@ import { Subscription } from 'rxjs';
   encapsulation: ViewEncapsulation.None
 })
 export class SearchComponent implements OnInit, OnDestroy {
+  public place: string = "";
   public area: string = "";
   public region: string = "";
 
@@ -30,6 +31,10 @@ export class SearchComponent implements OnInit, OnDestroy {
   }
 
   public ngOnDestroy() {
+  }
+
+  public onPlaceChange(event) {
+    console.log('onPlaceChange', event.detail.value)
   }
 
   public doSearch() {

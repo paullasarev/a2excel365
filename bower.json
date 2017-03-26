@@ -1,0 +1,20 @@
+{
+  "name": "a2excel365",
+  "description": "angular 2 excel365 addon project",
+  "main": "index.js",
+  "authors": [
+    "paullasarev@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/paullasarev/a2excel365",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-input": "^1.1.23"
+  }
+}

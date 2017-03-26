@@ -92,6 +92,7 @@ var config  = {
     ),
     new CopyWebpackPlugin([
       { from: 'app/assets' },
+      { from: '../bower_components', to: 'bower_components' },
     ]),
   ],
 

@@ -2,8 +2,20 @@
 angular 2 excel365 addon project
 
 # preinstall
-npm i -g gulp gulp-cli typescript typings ts-node
+npm i -g gulp gulp-cli typescript typings ts-node bower
 
+# install
+
+```
+npm i
+bower i
+```
+
+# build
+
+```
+npm run build
+```
 
 # Hosting
 ```

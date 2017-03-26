@@ -44,4 +44,6 @@ build
 
 project.sublime-workspace
 
+bower_components
+
 typings
