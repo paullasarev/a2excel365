@@ -32,19 +32,20 @@ var config  = {
     extensions: ['.ts', '.js', '.scss']
   },
   entry: {
-    polyfills: './polyfills',
+    // polyfills: './polyfills',
     app: './main',
     vendor: [
       'jquery',
       'lodash',
+      './polyfills',
       "@angular/common",
       "@angular/compiler",
       "@angular/core",
       "@angular/forms",
       "@angular/http",
+      "@angular/router",
       "@angular/platform-browser",
       "@angular/platform-browser-dynamic",
-      "@angular/router",
     ]
   },
   output: {

@@ -19,8 +19,8 @@ import { Subscription } from 'rxjs';
   encapsulation: ViewEncapsulation.None
 })
 export class SearchComponent implements OnInit, OnDestroy {
-  public area: string;
-  public region: string;
+  public area: string = "";
+  public region: string = "";
 
   constructor(
   ) {
