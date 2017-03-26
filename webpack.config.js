@@ -100,6 +100,8 @@ var config  = {
       {
         test: /\.ts$/,
         loader: 'awesome-typescript-loader',
+        exclude: [helpers.root('build'), helpers.root('config')],
+        include: path.join(__dirname, 'src'),
         options: {
           useCache: true
         }
