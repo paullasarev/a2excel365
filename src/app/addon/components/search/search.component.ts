@@ -37,7 +37,22 @@ export class SearchComponent implements OnInit, OnDestroy {
     console.log('onPlaceChange', event.detail.value)
   }
 
-  public doSearch() {
+  public async doSearch() {
     console.log('doSearch', this.area, this.region);
+    await this.run();
   }
+
+  private async run () {
+
+      await Excel.run(async (ctx) => {
+        /**
+         * Insert your Excel code here
+         */
+            var application = ctx.workbook.application;
+            application.load('calculationMode');
+            await ctx.sync();
+            console.log('calculationMode', application.calculationMode);
+      });
+
+    }
 }
