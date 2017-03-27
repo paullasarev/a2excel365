@@ -23,6 +23,8 @@ npm run build
   npm run serve
 ```
 
+open in browser https://localhost:3000
+
 You can host your add-in locally or use any web server. Make sure that the add-in is served using HTTPS and also update the add-ins source location in the manifest.
 
 # Sideloading
