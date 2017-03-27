@@ -2,18 +2,19 @@
 angular 2 excel365 addon project
 
 # preinstall
-npm i -g gulp gulp-cli typescript typings ts-node bower
+npm i -g webpack webpack-dev-server typescript typings ts-node bower
 
 # install
 
 ```
-npm i
-bower i
+npm install
+bower install
+typings install
 ```
 
 # build
 
-```
+``` 
 npm run build
 ```
 
